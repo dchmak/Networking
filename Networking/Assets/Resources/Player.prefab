@@ -328,7 +328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
+  m_SynchronizeAngularVelocity: 0
 --- !u!114 &114770812337980322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -510,12 +510,12 @@ MonoBehaviour:
     ExtrapolateNumberOfStoredPositions: 1
     DrawErrorGizmo: 1
   m_RotationModel:
-    SynchronizeEnabled: 1
-    InterpolateOption: 1
+    SynchronizeEnabled: 0
+    InterpolateOption: 0
     InterpolateRotateTowardsSpeed: 180
     InterpolateLerpSpeed: 5
   m_ScaleModel:
-    SynchronizeEnabled: 1
+    SynchronizeEnabled: 0
     InterpolateOption: 0
     InterpolateMoveTowardsSpeed: 1
     InterpolateLerpSpeed: 0
